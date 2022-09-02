@@ -36,10 +36,10 @@ void main() {
 	Console("Printer");
 	cout << "Test!";
 	cout << "printing";
-	do {
+	while (true) {
 		string print = "";
 		getline(cin, print);
 		rbx_Print(0, print.c_str());
 		cout << "Printed. \n";
-	} while (true);
+	}
 }
